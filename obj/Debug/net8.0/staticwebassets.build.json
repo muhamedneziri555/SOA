@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "4Qn8ZWRGqvsU8re5INuZrjcWSifyHWZ2Qx7uFrcVBek=",
+  "Source": "EventMngt",
+  "BasePath": "_content/EventMngt",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EventMngt\\wwwroot",
+      "Source": "EventMngt",
+      "ContentRoot": "C:\\Users\\Muhamed\\OneDrive\\Desktop\\evntmngt-master\\evntmngt-master\\EventMngt\\wwwroot\\",
+      "BasePath": "_content/EventMngt",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Muhamed\\OneDrive\\Desktop\\evntmngt-master\\evntmngt-master\\EventMngt\\wwwroot\\index.html",
+      "SourceId": "EventMngt",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Muhamed\\OneDrive\\Desktop\\evntmngt-master\\evntmngt-master\\EventMngt\\wwwroot\\",
+      "BasePath": "_content/EventMngt",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Muhamed\\OneDrive\\Desktop\\evntmngt-master\\evntmngt-master\\EventMngt\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EventMngt.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EventMngt.props",
+      "PackagePath": "build\\EventMngt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EventMngt.props",
+      "PackagePath": "buildMultiTargeting\\EventMngt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EventMngt.props",
+      "PackagePath": "buildTransitive\\EventMngt.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

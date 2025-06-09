@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EventMngt</name>
+    </assembly>
+    <members>
+        <member name="T:EventMngt.DTOs.EventDTO">
+            <summary>
+            Data Transfer Object for Event information
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.EventDTO.Id">
+            <summary>
+            Unique identifier for the event
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.EventDTO.Title">
+            <summary>
+            Title of the event
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.EventDTO.Description">
+            <summary>
+            Detailed description of the event
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.EventDTO.StartDate">
+            <summary>
+            Date and time when the event starts
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.EventDTO.EndDate">
+            <summary>
+            Date and time when the event ends
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.EventDTO.Location">
+            <summary>
+            Physical or virtual location of the event
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.EventDTO.Capacity">
+            <summary>
+            Maximum number of participants allowed
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.EventDTO.CategoryId">
+            <summary>
+            Reference to the category this event belongs to
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.EventDTO.OrganizerId">
+            <summary>
+            Reference to the user who created the event
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.EventDTO.CreatedAt">
+            <summary>
+            When the event was created
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.EventDTO.IsActive">
+            <summary>
+            Whether the event is currently active
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.EventDTO.Organizer">
+            <summary>
+            Information about the event organizer
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.EventDTO.RegistrationCount">
+            <summary>
+            Number of registrations for this event
+            </summary>
+        </member>
+        <member name="T:EventMngt.DTOs.CreateEventDTO">
+            <summary>
+            Data Transfer Object for creating a new event
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.CreateEventDTO.Title">
+            <summary>
+            Title of the event
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.CreateEventDTO.Description">
+            <summary>
+            Detailed description of the event
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.CreateEventDTO.StartDate">
+            <summary>
+            Date and time when the event starts
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.CreateEventDTO.EndDate">
+            <summary>
+            Date and time when the event ends
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.CreateEventDTO.Location">
+            <summary>
+            Physical or virtual location of the event
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.CreateEventDTO.Capacity">
+            <summary>
+            Maximum number of participants allowed
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.CreateEventDTO.CategoryId">
+            <summary>
+            Reference to the category this event belongs to
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.CreateEventDTO.OrganizerId">
+            <summary>
+            Reference to the user who created the event
+            </summary>
+        </member>
+        <member name="T:EventMngt.DTOs.UpdateEventDTO">
+            <summary>
+            Data Transfer Object for updating an existing event
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.UpdateEventDTO.Title">
+            <summary>
+            New title for the event (optional)
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.UpdateEventDTO.Description">
+            <summary>
+            New description for the event (optional)
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.UpdateEventDTO.StartDate">
+            <summary>
+            New start date and time (optional)
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.UpdateEventDTO.EndDate">
+            <summary>
+            New end date and time (optional)
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.UpdateEventDTO.Location">
+            <summary>
+            New location for the event (optional)
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.UpdateEventDTO.Capacity">
+            <summary>
+            New capacity for the event (optional)
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.UpdateEventDTO.CategoryId">
+            <summary>
+            New category for the event (optional)
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.UpdateEventDTO.OrganizerId">
+            <summary>
+            New organizer for the event (optional)
+            </summary>
+        </member>
+        <member name="P:EventMngt.DTOs.UpdateEventDTO.IsActive">
+            <summary>
+            New active status for the event (optional)
+            </summary>
+        </member>
+    </members>
+</doc>
